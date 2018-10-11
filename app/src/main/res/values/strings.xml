@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Simple Application</string>
+    <string name="go_to_fragment">Go to Fragment</string>
+    <string name="go_to_activity">Go to Activity</string>
+    <string name="email">Email</string>
+    <string name="name">Username</string>
+    <string name="add_user">ADD USER</string>
+    <string name="list_user">LIST USER</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

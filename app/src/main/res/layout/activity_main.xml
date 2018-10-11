@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.arif.simpleapplication.MainActivity">
+    <LinearLayout
+        android:id="@+id/linier1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello : "/>
+
+    </LinearLayout>
+<LinearLayout
+    android:id="@+id/linier2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true">
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/add_user"
+        android:onClick="adduser"/>
+
+    <Button
+        android:id="@+id/list"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/list_user"
+        android:onClick="listuser"/>
+
+    <Button
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/go_to_fragment"
+        android:onClick="gotofragment"/>
+
+    <Button
+        android:id="@+id/activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment"
+        android:gravity="center"
+        android:text="@string/go_to_activity"
+        android:onClick="gotoact"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frame">
+    </FrameLayout>
+</LinearLayout>
+</RelativeLayout>
